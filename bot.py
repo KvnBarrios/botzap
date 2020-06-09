@@ -257,32 +257,8 @@ class zapbot:
 if __name__ == '__main__':
     bot = zapbot()  # Inicia o objeto zapbot
     bot.abre_conversa("#19 CDI CUPONS, DESCONTOS")  # Passando o numero ou o nome do contato
-    # bot.envia_msg("Olá, sou o Kevinbot! Para receber ajuda digite: /help")
-    # Criando a variável msg
+
     x = False
     while x != True:
         bot.repassar_msg()
         time.sleep(12)
-    """
-    bot.repassar_msg()
-    x = False
-    while x != True:
-        bot.repassar_msg_option_burra()
-        bot.abre_conversa("grupo que envia a msg")
-"""
-    """while msg != "/quit":
-        msg = bot.ultima_msg()  # A cada loop recebe a ultima mensagem da conversa
-        if msg == "/help":  # Retorna uma mensagem de ajuda
-           bot.envia_msg("Bot ligado com sucesso")
-        elif msg == "/jeronimo":  # Retorna a imagem que selecionamos
-            bot.envia_msg("Parabéns Jeronimo @+55 27 99800-6190")
-        elif msg == "/arthur":  # Retorna a imagem que selecionamos
-            bot.envia_msg("Vai toma no cu @+55 33 8867-3234")
-        elif msg == "/well":  # Retorna a imagem que selecionamos
-            bot.envia_msg("Não fale mais comigo @+55 21 96625-1193")
-        elif msg == "/dia":  # Retorna a imagem que selecionamos
-            bot.envia_msg(f"Hoje é dia {date.today()}")
-        elif msg == "/reenviar":
-            bot.repassar_msg()
-        elif msg == "/quit":
-            bot.envia_msg("Desligando o bot, vai tomar no cu @+55 18 99681-6808")"""
